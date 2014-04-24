@@ -32,7 +32,7 @@ function gavickpro_add_my_tc_button() {
 }
 
 function gavickpro_add_tinymce_plugin($plugin_array) {
-   	$plugin_array['gavickpro_tc_button'] = plugins_url( '/complex-popup-button.js', __FILE__ ); // CHANGE THE BUTTON SCRIPT HERE
+   	$plugin_array['gavickpro_tc_button'] = plugins_url( '/simbolos.js', __FILE__ ); // CHANGE THE BUTTON SCRIPT HERE
    	return $plugin_array;
 }
 
